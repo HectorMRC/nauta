@@ -1,0 +1,7 @@
+[package]
+name = "nauta"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+globe-rs.workspace = true

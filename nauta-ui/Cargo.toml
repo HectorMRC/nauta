@@ -1,0 +1,15 @@
+[package]
+name = "nauta-ui"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow.workspace = true
+softbuffer = { workspace = true, default-features = true }
+thiserror = { workspace = true }
+tracing = { workspace = true }
+winit = { workspace = true, default-features = true }
+
+[[bin]]
+name = "nauta"
+path = "src/main.rs"

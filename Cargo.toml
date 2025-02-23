@@ -1,0 +1,12 @@
+[workspace]
+members = ["nauta", "nauta-ui"]
+resolver = "2"
+
+[workspace.dependencies]
+anyhow = { version = "1.0.96", default-features = false }
+winit = { version = "0.30.0", default-features = false }
+globe-rs = { git = "https://github.com/HectorMRC/globe-rs", branch = "main", default-features = false }
+softbuffer = { version = "0.4.6", default-features = false }
+thiserror = { version = "2.0.11", default-features = true }
+tracing = { version = "0.1.41", default-features = true }
+usvg = { version = "0.44.0", default-features = false }
